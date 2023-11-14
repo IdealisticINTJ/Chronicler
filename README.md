@@ -1,6 +1,10 @@
 # Chro;nicler
 
-A Discord bot designed to enhance your server's functionality by seamlessly integrating voice processing, transcription, and activity summarization.
+A versatile Discord bot designed to enhance your server's functionality by combining two robust functionalities:
+
+1. It acts as a voice assistant, capable of listening to users in a voice call, recording audio, transcribing it using OpenAI's Whisper, generating responses with GPT-3, converting text to speech using the Uberduck API, and sending the response audio back into the Discord voice call. This feature set is ideal for voice call moderation, ensuring accessibility, and more.
+
+2. It provides users with easy-to-read, semantically rich summaries of channel activities within specified time ranges. These summaries are intelligently split into parts, each timestamped and linked to the original messages. Users can leverage Chro;nicler to extract message history and generate concise summaries (tl;dr's) of previous message chunks, with customizable parameters such as the number of messages, start time/date, output format, and chunk sizes. The organized, embedded format of the summaries includes links to the original conversations, making it a valuable tool for efficient communication analysis.
 
 ## Features
 
